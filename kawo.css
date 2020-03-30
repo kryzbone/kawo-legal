@@ -1,0 +1,134 @@
+.kawo-nav {
+	/*position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;*/
+	height: 100px;
+	background-color: rgb(59, 12, 12);
+	border: none;
+	border-radius: 0;
+	z-index: 10000;
+}
+
+.transparent {
+	background: transparent !important;
+}
+
+.kawo-link {
+	padding-top: 30px;
+
+}
+
+.kawo-link > li > a {
+	color: #D14233 !important;
+	padding: 5px 10px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+.kawo-link > li > a:hover {
+	border: 2px solid #D14233;
+}
+
+.active {
+	border: 2px solid #D14233;
+}
+
+ .bg {
+	background: url(./home/homepage6.jpg) no-repeat center center ;
+	height: 100%;
+	position: relative;
+
+}
+
+.bg-image {
+	background-color: rgba(49, 12, 12, 0.7);
+	height: 100vh;
+	overflow: hidden;
+}
+
+.txt {
+	padding:20rem 70px 0;
+	width: 50%;
+	margin: 0 auto;
+	color: white;
+
+}
+
+.txt h1 {
+	font-size: 300%;
+	text-align: center;
+}
+
+.txt h3 {
+	font-size: 200%;
+	font-weight: 500;
+	margin-bottom: 40px;
+	
+}
+.txt a {
+	font-size: 30px;
+	padding: 10px 20px;
+}
+
+footer {
+	background-color: rgb(59, 12, 12);
+	margin-top: 2rem;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.icon li {
+	padding: 0 20px;
+	float: right;
+	display: inline;
+}
+
+.kawo-btn {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.kawo-btn button {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	width: 100%;
+}
+
+.kawo-input {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.kawo-input input {
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+width: 100%;
+}
+
+.startup {
+	padding-top: 10px;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.image {
+	padding-right: 20px;
+}
+
+.detial {
+	padding-left: 30px;
+}
+
+.search {
+	margin-bottom: 40px;
+}
+
+form {
+	margin: 40px auto 100px;
+}
+
+.login, .register {
+	max-width: 900px;
+}
